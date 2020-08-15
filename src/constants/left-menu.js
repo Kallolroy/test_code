@@ -1,0 +1,24 @@
+module.exports = {
+  DASHBOARD: 1,
+  STORE: 2,
+  TABLE: 3,
+  KITCHEN: 4,
+  REPORTS: 5,
+
+  // Menu parent: 6
+  MENUS: 7,
+  CATEGORIES: 8,
+  FOODITEMS: 9,
+  CHOICE_GROUPS: 10,
+  SERVING_HOURS: 11,
+
+  // Payment parent : 12
+  PAYMENT_METHODS: 13,
+  RECEIPT_TEMPLATE: 14,
+
+  STAFFS: 15,
+  SETTINGS: 16,
+
+  SUPER_ADMIN_COMPANIES: 1,
+  SUPER_ADMIN_NOTIFICATIONS: 6
+};
