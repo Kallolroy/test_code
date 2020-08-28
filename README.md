@@ -4,7 +4,7 @@ The application has been implemented using reactjs,react-redux ,materail ui . Th
 - actions
 - assets/
   - images
-   - styles
+  - styles
 components/
 basic
 composite
