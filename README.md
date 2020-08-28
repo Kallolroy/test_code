@@ -2,9 +2,9 @@ The application has been implemented using reactjs,react-redux ,materail ui . Th
 ###### Directory structure:
 - action-types
 - actions
-assets/
-images
-styles
+- assets/
+        images
+        styles
 components/
 basic
 composite
