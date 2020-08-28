@@ -3,8 +3,8 @@ The application has been implemented using reactjs,react-redux ,materail ui . Th
 - action-types
 - actions
 - assets/
-        images
-        styles
+  -images
+   -styles
 components/
 basic
 composite
