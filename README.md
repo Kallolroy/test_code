@@ -39,7 +39,9 @@ Components are defined here. Components can be divided into 3 major categories. 
 
 ###### basic: 
 Smallest components like input box, checkbox, radio button, button etc.  
-composite: Contains one or more basic components or third-party components. Like Calendar, datepicker etc. For using third-party components, we should use a wrapper component.  
+
+###### composite:  
+Contains one or more basic components or third-party components. Like Calendar, datepicker etc. For using third-party components, we should use a wrapper component.  
 
 ######  business:   
 Contains all business specific components combining with basic and composite components.  
