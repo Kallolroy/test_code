@@ -1,4 +1,4 @@
-The application has been implemented using **reactjs,react-redux ,materail ui** . All code are in **src** directory .The folder structure inside **src** as below
+The application has been implemented using **_reactjs,react-redux ,materail ui_** . All code are in **_src_** directory .The folder structure inside **_src_** as below
 ## Directory structure:
 - action-types
 - actions
