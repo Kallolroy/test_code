@@ -5,17 +5,17 @@ The application has been implemented using reactjs,react-redux ,materail ui . Th
 - assets/
   - images
   - styles
-components/
-basic
-composite
-business
-constants 
-containers
-reducers
-router
-store
-models
-utils
+- components/
+  - basic
+  - composite
+  - business
+- constants 
+- containers
+- reducers
+- router
+- store
+- models
+- utils
 
 action-types:
 Contains all the Redux action types based on the application feature. For example, if we have modal action then the actions could be 
