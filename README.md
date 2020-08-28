@@ -27,38 +27,40 @@ export const CLOSE_MODAL = 'CLOSE_MODAL';
 Contains all the Redux actions.  
 ```
 export const openModal = (params: Object) => ({
-type: OPEN_MODAL,
-payload: params,
+    type: OPEN_MODAL,
+    payload: params,
 });
 ```
 ###### assets:   
 Contains the static assets like images, css, scss etc. These assets are global.
 
-components:
+###### components:  
 Components are defined here. Components can be divided into 3 major categories. All component specific resources like images/styles should be here.
 
-basic: Smallest components like input box, checkbox, radio button, button etc.
-composite: Contains one or more basic components or third-party components. Like Calendar, datepicker etc. For using third-party components, we should use a wrapper component.
+###### basic: 
+Smallest components like input box, checkbox, radio button, button etc.  
+composite: Contains one or more basic components or third-party components. Like Calendar, datepicker etc. For using third-party components, we should use a wrapper component.  
 
-business: Contains all business specific components combining with basic and composite components.
+######  business:   
+Contains all business specific components combining with basic and composite components.  
 
-constants:
-Constants shared across the application will be kept here. You can separate them in several files.
+###### constants:  
+Constants shared across the application will be kept here. You can separate them in several files.  
 
-containers:
+###### containers:  
 Containers contain components. The reason is that we want to achieve separation of concern principal.  Containers only contain the data logics and components will contain the display logics. We will try to use stateless components as much as possible.
 
-reducers:
+###### reducers:  
 All the Redux reducers will be here including root reducer.
 
-router:
+###### router:  
 Router definitions will be here.
 
-store:
+###### store:  
 Redux Store definition will be here.
 
-models:
+###### models:  
 Interfaces as models to be used to send and receive data.
 
-utils:
+###### utils:  
 All the utility classes will be here.
