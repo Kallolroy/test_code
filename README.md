@@ -77,22 +77,14 @@ a.	Fetch the data via an api call
 b.	If error display error message
 c.	If success, then show the items and tiles/list
 8.	Components where we have different presentation based on same data, we can follow this pattern. For example, we can have a calendar container component that has different view like day/week/month.
-
-
-
-
-
-
-9.	If we need to add same functionality to some existing components, we should use higher order components.
+9.	If needed to add same functionality to some existing components, we should use higher order components.
 10.	To check the property types, we can use flow.
-11.	We can use Hooks as much as possible to achieve different functionality.
+11.	Used Hooks as much as possible to achieve different functionality.
 
-Naming conventions:
+###### Naming conventions:  
 1.	File names should be all small and words separated by – (dash).
 2.	Component/Class names should follow Pascal notation.
 3.	For basic and composite components use prefix Ix (prefix of Ixora)
 4.	For Business components use UST as prefix
 5.	Use camel case for method and argument names.
 6.	For css class names use all small and words separated by –(dash)
-
-
