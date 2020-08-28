@@ -64,3 +64,35 @@ Interfaces as models to be used to send and receive data.
 
 ###### utils:  
 All the utility classes will be here.
+
+###### Following basic key principles while create a new component:  
+1.	Keep as small as possible. Say at most 100 lines  
+2.	Use functional components instead of State Components.  
+3.	Use lazy loading components  
+4.	If the prop/state does not change then do not render the component. For this we can use memo.
+5.	Use Context API to keep state and pass data from parent to child components when possible. Consider data which are not coming from backend/api calling.
+6.	Use Redux to maintain state for the application. Keep data which are coming from backend or by calling API.
+7.	Use render prop design pattern when for some components you have same logic, but their presentations are different. Like display list of person/product in thumbnail view. They have same logic as
+a.	Fetch the data via an api call
+b.	If error display error message
+c.	If success, then show the items and tiles/list
+8.	Components where we have different presentation based on same data, we can follow this pattern. For example, we can have a calendar container component that has different view like day/week/month.
+
+
+
+
+
+
+9.	If we need to add same functionality to some existing components, we should use higher order components.
+10.	To check the property types, we can use flow.
+11.	We can use Hooks as much as possible to achieve different functionality.
+
+Naming conventions:
+1.	File names should be all small and words separated by – (dash).
+2.	Component/Class names should follow Pascal notation.
+3.	For basic and composite components use prefix Ix (prefix of Ixora)
+4.	For Business components use UST as prefix
+5.	Use camel case for method and argument names.
+6.	For css class names use all small and words separated by –(dash)
+
+
