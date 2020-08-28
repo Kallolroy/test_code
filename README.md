@@ -1,7 +1,7 @@
 The application has been implemented using reactjs,react-redux ,materail ui . The folder structure as below
 ###### Directory structure:
-*action-types
-*actions
+- action-types
+- actions
 assets/
 images
 styles
