@@ -17,7 +17,7 @@ The application has been implemented using reactjs,react-redux ,materail ui . Th
 - models
 - utils
 
-action-types:
+###### action-types: 
 Contains all the Redux action types based on the application feature. For example, if we have modal action then the actions could be 
 export const OPEN_MODAL = 'OPEN_MODAL';
 export const CLOSE_MODAL = 'CLOSE_MODAL';
@@ -29,7 +29,7 @@ type: OPEN_MODAL,
 payload: params,
 });
 
-assets:
+assets: 
 Contains the static assets like images, css, scss etc. These assets are global.
 
 components:
